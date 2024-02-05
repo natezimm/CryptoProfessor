@@ -40,10 +40,12 @@ export default function Landing({ Header }: { Header?: ReactNode }) {
                 endpoint: endpoint,
                 iconURL: iconURL,
               })} */}
-            <img
-              src="../../../../../../public/assets/landing-logo.png"
-              className="crypto-favicon"
-            />
+            {endpoint && (
+              <img
+                src="../../../../../../public/assets/landing-logo.png"
+                className="crypto-favicon"
+              />
+            )}
           </div>
         </div>
         <div className="mb-5 text-2xl font-medium dark:text-white">
