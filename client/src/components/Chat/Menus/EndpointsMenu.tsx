@@ -1,4 +1,3 @@
-import { alternateName } from 'librechat-data-provider';
 import { Content, Portal, Root } from '@radix-ui/react-popover';
 import { useGetEndpointsQuery } from 'librechat-data-provider/react-query';
 import type { FC } from 'react';
@@ -21,7 +20,7 @@ const EndpointsMenu: FC = () => {
   }
   return (
     <Root>
-      <TitleButton primaryText={(alternateName[selected] ?? selected ?? '') + ' '} />
+      <TitleButton />
       <Portal>
         <div
           style={{

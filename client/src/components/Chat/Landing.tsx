@@ -31,7 +31,7 @@ export default function Landing({ Header }: { Header?: ReactNode }) {
       <div className="flex h-full flex-col items-center justify-center">
         <div className="mb-3 h-[72px] w-[72px]">
           <div className="gizmo-shadow-stroke relative flex h-full items-center justify-center rounded-full bg-white text-black">
-            {endpoint &&
+            {/* {endpoint &&
               Icon &&
               Icon({
                 size: 41,
@@ -39,7 +39,11 @@ export default function Landing({ Header }: { Header?: ReactNode }) {
                 className: 'h-2/3 w-2/3',
                 endpoint: endpoint,
                 iconURL: iconURL,
-              })}
+              })} */}
+            <img
+              src="../../../../../../public/assets/landing-logo.png"
+              className="crypto-favicon"
+            />
           </div>
         </div>
         <div className="mb-5 text-2xl font-medium dark:text-white">

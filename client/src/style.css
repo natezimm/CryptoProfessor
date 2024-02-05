@@ -1763,3 +1763,7 @@ html {
   border-color: #ececf1;
   border-color: var(--surface-tertiary)
 }
+
+.crypto-favicon {
+  display: inline-block;
+}
